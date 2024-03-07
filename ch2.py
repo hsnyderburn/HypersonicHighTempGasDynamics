@@ -10,4 +10,10 @@ import numpy as np
 #u2 and v2 are velocity components behind shck parallel and perpendicular to the upstream velocity.
 #(not parallel and perpendicular to shock wave, as is usally taken in most standard shock wave derivations)
 
-basicCont = 
+#following equations for oblique shock waves:
+#upstream = 1, downstream = 2
+
+
+t = 
+rho =
+basicCont = rho/t + np.gradient(rho*u)
